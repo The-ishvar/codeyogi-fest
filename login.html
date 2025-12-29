@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+        body{
+            background-color: rgb(179, 179, 174);
+        }
+        .sing{
+            width: 100%;
+            height: 80vh;
+            display: flex;
+            align-items: center;
+        }
+        .sing form{
+            
+            width: 100%;
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+               /* background-color: rgb(189, 189, 185); */
+
+        }
+        input{
+            width: 200px;
+            height: 25px;
+            border-radius: 10px;
+        }
+
+        button{
+            width:80px;
+            height: 30px;
+            border-radius: 20px;
+        }
+
+        button:hover{
+            background-color: rgb(199, 199, 195);
+        }
+    </style>
+</head>
+<body>
+    <div class="sing">
+        <form action="">
+            <label for="name">Your name</label>
+            <input id="name" type="text" placeholder="your name" required name="name">
+
+            
+            <label for="number">Your number</label>
+            <input id="number" type="number" placeholder="your number" minlength="10" required name="number">
+            
+            <label for="blood">Your  bloodName</label>
+            <input id="blood" type="blood" placeholder="your blood" required name="blood">
+            
+            <label for="email">Your name</label>
+            <input id="email" type="email" placeholder="your email" required name="email">
+            
+            <label for="password">Your name</label>
+            <input id="password" type="password" placeholder="your password" minlength="10" required name="password">
+            <label for="date">Your date</label>
+            <input id="date" type="date" placeholder="date" required name="date">
+
+            <input id="checkbox" type="checkbox" required>
+            <label for="checkbox">your age 18 se jada he kya</label>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

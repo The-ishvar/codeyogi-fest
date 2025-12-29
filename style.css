@@ -1,0 +1,226 @@
+
+
+
+
+@media (max-width: 480px) {
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+    width: 100%;
+    /* min-height: 50vh; */
+    font-weight: 400;
+    background-color: rgb(190, 187, 187);
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    min-height: 16vh;
+    background-color: beige;
+}
+
+ul {
+    padding-top: 10px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+ul a,
+nav a,
+nav {
+    color: black;
+    font-weight: 800;
+    border-bottom: 1.9px solid black;
+}
+
+ul a:hover {
+    background-color: rgb(232, 239, 239);
+    padding: 2px;
+}
+
+/* sei he yaha tek code  */
+
+
+.festDiv {
+    /* height: 20px; */
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+ img {
+    width: 100%;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.festconter a {
+    background-color: rgba(20, 241, 241, 0.863);
+    font-weight: 800;
+    color: black;
+    padding: 4px;
+    border-radius: 10px;
+    border: 2px solid black;
+    /* width: 20px; */
+    /* justify-self: center; */
+}
+
+.SecendDiv {
+    width: 100%;
+    padding: 5px;
+}
+
+.SecendDiv .bloodName {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+.about {
+    width: 100%;
+    padding: 5px;
+}
+ }
+
+
+
+  
+@media (min-width: 480px) and (max-width: 1324px) { 
+
+
+    * {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+    width: 100%;
+    /* min-height: 150vh; */
+    font-weight: 400;
+    background-color: rgb(190, 187, 187);
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 16vh;
+    background-color: beige;
+}
+
+ul {
+    padding-top: 10px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+ul a,
+nav a,
+nav {
+    color: black;
+    font-weight: 800;
+    border-bottom: 1.9px solid black;
+}
+
+ul a:hover {
+    background-color: rgb(232, 239, 239);
+    padding: 2px;
+}
+
+/* sei he yaha tek code  */
+
+
+.festDiv {
+    display: flex;
+    width: 100%;
+    /* height: 25vh; */
+}
+
+ img {
+    width: 40%;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.festDiv p {
+    margin-top: 19px;
+}
+/* .festDiv a{
+    padding: 20px;
+} */
+.festconter{
+    display: flex;
+    flex-direction: column;
+}
+
+.festconter a {
+    background-color: rgba(20, 241, 241, 0.863);
+    font-weight: 800;
+    color: black;
+    padding: 4px;
+    border-radius: 10px;
+    border: 2px solid black;
+    /* width: 20px; */
+    /* margin-left: -100px; */
+    align-self: center;
+    /* justify-self: center; */
+
+}
+
+.SecendDiv {
+    width: 100%;
+    padding: 5px;
+}
+
+.SecendDiv .bloodName {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+.about {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+}
+
+.about p {
+    margin-top: 20px;
+}
+ }
+
+    
+
+
