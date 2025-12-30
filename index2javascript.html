@@ -15,7 +15,7 @@
     }
 
     body {
-        background-color: rgb(123, 123, 119);
+        background-color: rgb(255, 255, 255);
     }
 
     .conter {
@@ -78,6 +78,53 @@
         width: 100px;
         height: 20px;
     } */
+
+
+        .conter {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            padding-top: 10px;
+            justify-content: center;
+        }
+
+        .card {
+            width: 200px;
+            padding: 15px;
+            border-radius: 20px;
+            border: 2px solid black;
+            text-align: center;
+        }
+
+        .card img {
+            width: 80px;
+            height: 90px;
+            margin-bottom: 10px;
+        }
+
+        .card span {
+            font-weight: bold;
+            color: red;
+        }
+
+        .card p {
+            margin-bottom: 20px;
+        }
+
+        .card a {
+            color: black;
+            font-weight: 700;
+            border: 2px solid black;
+            text-decoration: none;
+            padding: 3px;
+            border-radius: 10px;
+            background-color: rgb(140, 156, 156);
+        }
+
+        .card a:hover {
+            background-color: white;
+        }
+
 </style>
 
 <script>
@@ -135,12 +182,116 @@
 
             <input id="bimari" type="checkbox" required name="bimari">
             <label for="bimari">Aap ko koi bimari to nahi he </label>
-
+            
             <button type="button" onclick="bloodDonit()">Submit</button>
         </form>
     </div>
-
     <p id="ruten">:-</p>
+
+<div class="conter">
+
+        <div class="card">
+            <img src="blooddon.png" alt="donor">
+            <h4>Mahesh Kumar</h4>
+            <p>
+                Blood Group: <span>A+</span><br>
+                Age: 20 Year<br>
+                vate: 50 Kg<br>
+                Village: churu
+                <br>number ;- 0000000000
+            </p>
+
+            <a href="">Buy Blood</a>
+        </div>
+
+        <div class="card">
+            <img src="blooddon.png" alt="donor">
+            <h4>Rahul Singh</h4>
+            <p>
+                Blood Group: <span>A-</span><br>
+                Age: 24 Year<br>
+                vate: 55 Kg<br>
+                Village: Jaipur <br>number ;- 0000000000
+            </p>
+            <a href="">Buy Blood</a>
+        </div>
+
+        <div class="card">
+            <img src="blooddon.png" alt="donor">
+            <h4>Rahul Singh</h4>
+            <p>
+                Blood Group: <span>B+</span><br>
+                Age: 24 Year<br>
+                vate: 55 Kg<br>
+                Village: Jaipur <br>number ;- 0000000000
+            </p>
+            <a href="">Buy Blood</a>
+        </div>
+
+        <div class="card">
+            <img src="blooddon.png" alt="donor">
+            <h4>Rahul Singh</h4>
+            <p>
+                Blood Group: <span>B-</span><br>
+                Age: 24 Year<br>
+                vate: 55 Kg<br>
+                Village: Jaipur <br>number ;- 0000000000
+            </p>
+            <a href="">Buy Blood</a>
+        </div>
+
+        <div class="card">
+            <img src="blooddon.png" alt="donor">
+            <h4>Rahul Singh</h4>
+            <p>
+                Blood Group: <span>AB+</span><br>
+                Age: 24 Year<br>
+                vate: 55 Kg<br>
+                Village: Jaipur <br>number ;- 0000000000
+            </p>
+            <a href="">Buy Blood</a>
+        </div>
+
+        <div class="card">
+            <img src="blooddon.png" alt="donor">
+            <h4>Rahul Singh</h4>
+            <p>
+                Blood Group: <span>AB-</span><br>
+                Age: 24 Year<br>
+                vate: 55 Kg<br>
+                Village: Jaipur <br>number ;- 0000000000
+            </p>
+            <a href="">Buy Blood</a>
+        </div>
+
+        <div class="card">
+            <img src="blooddon.png" alt="donor">
+            <h4>Rahul Singh</h4>
+            <p>
+                Blood Group: <span>O+</span><br>
+                Age: 24 Year<br>
+                vate: 55 Kg<br>
+                Village: Jaipur <br>number ;- 0000000000
+            </p>
+            <a href="">Buy Blood</a>
+        </div>
+
+        <div class="card">
+            <img src="blooddon.png" alt="donor">
+            <h4>Rahul Singh</h4>
+            <p>
+                Blood Group: <span>O-</span><br>
+                Age: 24 Year<br>
+                vate: 55 Kg<br>
+                Village: Jaipur <br>number ;- 0000000000
+            </p>
+            <a href="">Buy Blood</a>
+        </div>
+
+
+    </div>
+
+
 </body>
 
 </html>
